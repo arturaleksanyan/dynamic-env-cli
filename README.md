@@ -9,7 +9,6 @@ A simple Node.js CLI tool and runtime helper to inject and access environment va
 - Generates a `run.sh` script that:
   - Serializes environment variables into a string.
   - Replaces `___ENV-VARIABLES___` placeholder in built `.js` files.
-  - Sends a registration POST request to a monitoring endpoint.
   - Starts the Nginx server.
 - Provides a runtime function to access environment variables using `getEnvVariable`.
 - Supports both `development` (from `.env` or system) and `production` (injected string) environments.
