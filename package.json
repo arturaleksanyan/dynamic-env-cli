@@ -1,6 +1,6 @@
 {
   "name": "dynamic-env-cli",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -14,9 +14,21 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "A simple Node.js CLI tool and runtime helper to inject and access environment variables dynamically in frontend JavaScript files, especially useful for static sites served via Nginx.",
   "devDependencies": {
     "@types/node": "^22.15.18",
     "typescript": "^5.8.3"
-  }
+  },
+  "dependencies": {
+    "undici-types": "^6.21.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturaleksanyan/dynamic-env-cli.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/arturaleksanyan/dynamic-env-cli/issues"
+  },
+  "homepage": "https://github.com/arturaleksanyan/dynamic-env-cli#readme"
 }
